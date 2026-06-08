@@ -38,3 +38,7 @@ on:
           annotations: ${{ steps.meta.outputs.annotations }}
           provenance: true
           sbom: true
+      - name: Install dependencies
+        run: npm install
+      - name: Run unit tests
+        run: npm test
