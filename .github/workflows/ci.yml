@@ -28,10 +28,3 @@ jobs:
         with:
           context: .
           call: check
-
-      - name: Construir y subir imagen
-        uses: docker/build-push-action@v7
-        with:
-          context: .
-          push: true
-          tags: hilskris/proyectodockerci:latest
