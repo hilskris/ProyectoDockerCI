@@ -14,4 +14,4 @@ jobs:
 
       - name: Verify index.html
         run: |
-          grep "Hola Mundo" index.html
+          grep "Bienvenido" index.html
